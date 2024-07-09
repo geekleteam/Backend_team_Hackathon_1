@@ -1,0 +1,23 @@
+.projectContainer {
+    padding: 1rem;
+  }
+  
+  .projectTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #d1d5db; /* Light gray for text */
+  }
+  
+  .projectItem {
+    margin-bottom: 0.5rem;
+    padding: .5rem; /* Increased padding for better spacing */
+    color: #d1d5db; /* Light gray text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .projectItem:hover {
+    background-color: #2a2a2a; /* Slightly lighter dark background on hover */
+  }
+  

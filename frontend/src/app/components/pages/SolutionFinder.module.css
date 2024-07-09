@@ -1,0 +1,35 @@
+.bg-gray-900 {
+  background-color: #fff; /* Dark background */
+}
+
+.bg-gray-800 {
+  background-color: #fff; /* Slightly lighter dark background */
+}
+
+.bg-gray-700 {
+  background-color: #f1f1f9; /* Darker button background */
+}
+
+.text-gray-300 {
+  color: #1f1f20; /* Light text color */
+}
+
+.text-purple-500 {
+  color: #9f7aea; /* Purple text color */
+}
+
+.tableContainer {
+  /* position: absolute;
+  width: 100%;
+  bottom: -100%;
+  transform: translateY(100%);
+  transition: transform 1s ease; */
+}
+
+.showTable {
+  transform: translateY(0%);
+}
+
+.hiddenTable {
+  transform: translateY(100%);
+}
