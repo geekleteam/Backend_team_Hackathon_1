@@ -82,12 +82,33 @@ Dev Solution Finder is a comprehensive project that includes three main componen
 
 ### Setup
 
-1. Clone the repository:
+1**. Clone the repository:**
 
    ```sh
    git clone <repository-url>
    cd dev-solution-finder-main
    ```
+
+2. **Go to frondend directory:**
+ yarn 
+ yarn dev
+
+3. **Go to Ai directory**
+
+pip install -r requirement.txt
+
+add .env file 
+OPENAI_API_KEY=your-key
+TAVILY_API_KEY=your-key
+
+To run backend: langchain serve 
+
+
+### Run Deployed App
+
+Live URL: Frontend: https://dev-solution-finder-geekle.vercel.app/
+
+Backend URL: http://91.134.105.119:8000/compare-assistant http://91.134.105.119:8000/docs
 
 Live URL:
 Frontend: https://dev-solution-finder-geekle.vercel.app/
