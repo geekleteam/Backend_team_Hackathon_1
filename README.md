@@ -88,3 +88,12 @@ Dev Solution Finder is a comprehensive project that includes three main componen
    git clone <repository-url>
    cd dev-solution-finder-main
    ```
+
+Live URL:
+Frontend: https://dev-solution-finder-geekle.vercel.app/
+
+Backend URL:
+http://91.134.105.119:8000/compare-assistant
+http://91.134.105.119:8000/docs
+
+
